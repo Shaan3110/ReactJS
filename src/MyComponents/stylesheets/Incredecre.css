@@ -1,0 +1,43 @@
+.maincontainer
+{
+    width: 29vw;
+    height: -moz-fit-content;
+    height: fit-content;
+    padding: 3rem 0rem;
+    box-shadow: 0.3rem 0.3rem 0.7rem #000;
+    border-radius: 0.8rem;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    flex-direction: column;
+}
+.buttons{
+    display: flex;
+    justify-content: space-between !important;
+    align-items: center;
+    width: 80%;
+    height: fit-content;
+    margin-top: 15rem;
+}
+button{
+    width: 10rem;
+    height: 3rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+    background-color: blueviolet;
+    border: none;
+    box-shadow: none;
+    border-radius: 0.4rem;
+    color: white;
+    font-weight: 600;
+}
+h1{
+    font-size: 5rem;
+    width: 100%;
+    height: fit-content;
+    background-color: blueviolet;
+    text-align: center;
+    color: white;
+}
