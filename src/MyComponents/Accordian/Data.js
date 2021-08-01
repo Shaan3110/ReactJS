@@ -1,4 +1,4 @@
-export default questions = [
+export const questions = [
     {
         id: 1,
         question: 'What is the virtual DOM?',

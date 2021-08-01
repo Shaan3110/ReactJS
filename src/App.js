@@ -1,10 +1,11 @@
 import React from 'react';
 import './App.css'
-import Incredecre from './MyComponents/Incredecre'
+import {AllAccordians} from './MyComponents/Accordian/AllAccordians'
+
 function App() {
   return (
   <>
-  <Incredecre/>
+  <AllAccordians/>
   </>
   );
 }
