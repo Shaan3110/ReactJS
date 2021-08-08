@@ -1,10 +1,10 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { questions } from './Data.js'
 import '../stylesheets/Accordians-stylesheets/AllAccordians.css'
 import Accordian from './Accordian'
 
 export const AllAccordians = () => {
-    const [Data, setData] = useState(questions);
+    const Data=questions;
     return (
         <>
             <section className="main-div">
